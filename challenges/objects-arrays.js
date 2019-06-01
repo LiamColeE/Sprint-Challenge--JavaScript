@@ -165,7 +165,7 @@ The zoos need to know their total animal population across the United States.  F
 let populationTotal = 0;
 
 let populations = [];
-populations = zooAnimals.map((anAimal) => {
+populations = zooAnimals.map((animal) => {
   return animal.population;
 });
 
