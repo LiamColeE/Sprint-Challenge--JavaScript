@@ -29,14 +29,22 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. Describe the biggest difference between `.forEach` & `.map`.
+.map creates a new array from the results of the function you use on each elemetent. foreach just runs the function with each element.
 
 2. What is the difference between a function and a method?
+methods are functions that are the property of an object
 
 3. What is closure?
+a function within a function
 
 4. Describe the four rules of the 'this' keyword.
+Global: binds to the window/console
+Implicit: the object before the dot in a function call
+new: the new object created by the constructor
+explicit: whenever the call or apply methods are called
 
 5. Why do we need super() in an extended class?
+to call the constructor of the class you are extending.
 
 ## Project Set up
 
